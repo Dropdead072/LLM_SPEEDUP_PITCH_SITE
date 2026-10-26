@@ -1,0 +1,11 @@
+{
+  "name": "llm-perf-demo",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Демо-сайт «Больше токенов с каждой GPU» — локальный, без сборки и без сети",
+  "scripts": {
+    "serve": "python -m http.server 8765 --bind 127.0.0.1",
+    "check": "node tests/check.mjs"
+  }
+}
